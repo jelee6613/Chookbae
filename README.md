@@ -3,35 +3,15 @@
 
 **2022.10.11~2022.11.25**
 
----
-
-## 📋목차
-
-1️⃣ <a href="#1️⃣-개요">개요</a>
-
-2️⃣ <a href="#2️⃣-기술스택--기여도">기술스택 & 기여도</a>
-
-3️⃣ <a href="#3️⃣-아키텍처">아키텍처</a>
-
-4️⃣ <a href="#4️⃣-기능--시연">기능 & 시연</a>
-
-5️⃣ <a href="#5️⃣-개발자">개발자</a>
-
-6️⃣ <a href="#6️⃣-프로젝트-관련-문서">프로젝트 관련 문서</a>
-
+<span>
+<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
+<img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=NGINX&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
+<img src="https://img.shields.io/badge/jenkins-993333?style=for-the-badge&logo=Jenkins&logoColor=white">
+</span>
 <br>
-
-## 1️⃣ 개요
-
-> 월드컵 API로 경기 및 선수 정보를 실시간으로 제공합니다.  
-> 경기 배팅, 선수 카드 수집을 통해 다른 유저와 경쟁하며 월드컵을 더욱 즐기기 위한 서비스입니다.
-
-<br>
-
-## 2️⃣ 기술스택 & 기여도
-
-### 🔸 기술스택
-
 <span>
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -46,8 +26,41 @@
 </span>
 <br>
 <span>
+<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=GitLab&logoColor=white"/>
+<img src="https://img.shields.io/badge/Mattermost-0058CC?style=for-the-badge&logo=Mattermost&logoColor=white">
+<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
+</span>
+
+---
+
+## 📋목차
+
+1️⃣ <a href="#1️⃣-개요">개요</a>
+
+2️⃣ <a href="#2️⃣-기여도">기여도</a>
+
+3️⃣ <a href="#3️⃣-아키텍처">아키텍처</a>
+
+4️⃣ <a href="#4️⃣-기능">기능</a>
+
+5️⃣ <a href="#5️⃣-개발자">개발자</a>
+
+6️⃣ <a href="#6️⃣-프로젝트-관련-문서">프로젝트 관련 문서</a>
+
+<br>
+
+## 1️⃣ 개요
+
+> 월드컵 API로 경기 및 선수 정보를 실시간으로 제공합니다.  
+> 경기 배팅, 선수 카드 수집을 통해 다른 유저와 경쟁하며 월드컵을 더욱 즐기기 위한 서비스입니다.
+
+<br>
+
+## 2️⃣ 기여도
+
+<span>
 <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon S3-569A31?style=for-the-badge&logo=Amazon S3&logoColor=white">
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"/>
 <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=NGINX&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
@@ -55,46 +68,24 @@
 </span>
 <br>
 <span>
-<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=GitLab&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mattermost-0058CC?style=for-the-badge&logo=Mattermost&logoColor=white">
-<img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
-</span>
-
-<br>
-
-### 🔸 기여도 (Devops & Design)
-
-> 실시간으로 경기 정보를 반영하고, 안정적인 배팅 서비스를 제공하기 위해서 무중단 배포 도입을 추진했고,  
-> 동작 원리가 직관적인 Blue-Green 무중단 배포를 채택했습니다.  
->
-> 대부분의 레퍼런스가 Spring 기반으로 구현돼서 Django 기반 현 프로젝트에 적용하기가 어려웠습니다. Blue-Green 무중단 배포의 원리를 학습하며, 레퍼런스를 탐독하니 핵심 부분이 눈에 보이기 시작했고, 핵심 부분을 개발 환경에 맞게 적용하여 Blue-Green 무중단 배포에 성공했습니다. 학습 효과를 높이고자 구현 과정을 정리해서 공유했습니다. 👉 <a href="https://algo-liashi.tistory.com/87">Blue-Green 무중단 배포 구현 과정</a>  
-> 
-> 안정적으로 서버를 유지하면서 메인페이지, 랭킹페이지, 마이페이지, 카드 디자인을 구현했습니다.
-
-<br>
-
-<span>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </span>
 <br>
 <span>
-<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=Ubuntu&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=NGINX&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
-<img src="https://img.shields.io/badge/jenkins-993333?style=for-the-badge&logo=Jenkins&logoColor=white">
-</span>
-<br>
-<span>
 <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitLab-FCA121?style=for-the-badge&logo=GitLab&logoColor=white"/>
 <img src="https://img.shields.io/badge/Mattermost-0058CC?style=for-the-badge&logo=Mattermost&logoColor=white">
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
 </span>
+
+### 🔸 Devops & Design
+
+> 실시간 경기 정보와 배팅 서비스를 제공하고자 무중단 배포를 제안하고, 동작 원리가 직관적인 Blue-Green 무중단 배포를 채택했습니다. 
+>
+> Blue-Green 무중단 배포 원리와 레퍼런스를 학습하며 현 프로젝트에 맞게 적용하여 Blue-Green 무중단 배포를 구현했고, 학습 효과를 높이고자 구현 과정을 정리해서 공유했습니다.  👉 <a href="https://algo-liashi.tistory.com/87">Blue-Green 무중단 배포 구현 과정</a>  
+> 
+> 펍에서 축구를 관람하는 느낌을 내고자 깜빡이는 네온 디자인을 제안했고, 이를 기반으로 메인페이지, 랭킹페이지, 마이페이지, 카드 디자인을 구현했습니다.
 
 #### ◼ 기획
 
@@ -130,7 +121,7 @@
 
 <br>
 
-## 4️⃣ 기능 & 시연
+## 4️⃣ 기능
 
 ### 🔸 메인 페이지
 
@@ -181,12 +172,12 @@
 
 | 이름 | 역할 |
 | --- | --- |
-| 👑성지훈 | Front-End |
-| 👨강경은 | Back-End |
-| 👦김수환 | Front-End |
-| 👱박상수 | Back-End |
+| 👑성지훈 | Frontend |
+| 👨강경은 | Backend |
+| 👦김수환 | Frontend |
+| 👱박상수 | Backend |
 | 👲이종은 (me) | Devops |
-| 🧑임수환 | Back-End |
+| 🧑임수환 | Backend |
 
 <br>
 
